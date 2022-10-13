@@ -51,7 +51,7 @@ export default function Home() {
         </Link>
         <Link href="/energiaLivre">
           <a>
-            <Image src="/energia-livre.jpeg" width={200} height={100}/>
+            <Image src="/mercado-livre-energia.jpeg" width={200} height={100}/>
             <p>Mercado Livre de Energia</p>
          </a>
         </Link>
