@@ -18,7 +18,7 @@ export default function Home() {
         <p className={ styles.text}>A Sersol Energia Solar possui sede no município de Blumenau-SC. É uma empresa especializada em desenvolver, viabiliar e implantar soluções em energia solar fotovoltaica, agregando valor aos seus clientes e contribuindo com a preservação do meio ambiente.</p>
         <p className={ styles.text}>Nossa atuação busca a sustentabilidade, implantando usinas solares que geram energia limpa e renovável, contribuindo para a redução da emissão de gás carbônico e preservando nossas florestas. Essa atitude responsável pode ser certificada, proporcionando economia financeira para os clientes e atraindo novos parceiros de negócios.</p>
       </div>
-      <div>
+      <div className={styles.links}>
         <Link href="/energiaSolar">
           <a>
             <Image src="/energia-solar.jpeg" width={200} height={100}/>

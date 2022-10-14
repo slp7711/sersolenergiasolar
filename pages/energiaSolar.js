@@ -21,7 +21,7 @@ const EnergiaSolar = () => {
                 <p>Se você tem dinheiro guardado na poupança e continua pagamento todo mês a conta de energia, está jogando dinheiro fora, pois a aplicação rende muito, mas muito menos que o investimento em energia solar.</p>
                 <p>Para aqueles quem não dispõe de recursos próprios, hoje existem diversas formas de financiamento, com prazos e taxas bem atrativas.</p>
                 <p>Consulte um engenheiro eletricista ou eletrotécnico e peça orientação.</p>
-                <p>A Sersol Projetos Elétricos é especializada na elaboração de projetos de energia solar fotovoltaica, desde o adequado dimencionamento da usina, aprovação na concessionária, até a execução da obra e acompamento da produção.</p>
+                <p>A Sersol Energia Solar é especializada na elaboração de projetos de energia solar fotovoltaica, desde o adequado dimencionamento da usina, aprovação na concessionária, até a execução da obra e acompamento da produção.</p>
                 <p>Já tem a usina instalada e gostaria apenas de aprovar na concessionária? Fale conosco.</p>
             </div>
         </>

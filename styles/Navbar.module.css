@@ -1,0 +1,33 @@
+.navbar {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+/*     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+}
+
+
+.links > a {
+    border-bottom: 2px solid blue;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.links > a:hover{
+    background-color: orange;
+}
