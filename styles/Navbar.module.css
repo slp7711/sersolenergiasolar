@@ -31,3 +31,16 @@
 .links > a:hover{
     background-color: orange;
 }
+
+/* Responsive style */
+
+@media screen and (min-width: 900px){
+    .navbar {
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .links {
+        grid-template-columns: 1fr 2fr 3fr 1fr 3fr 3fr 2fr;
+    }
+
+}
