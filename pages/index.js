@@ -56,6 +56,11 @@ export default function Home() {
          </a>
         </Link>
       </div>
+      <div className={styles.mapouter}>
+        <h3>Nossa localização</h3>
+        <div className={styles.gmap_canvas}><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=sersol%20energia%20solar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
         
     </>
   )

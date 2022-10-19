@@ -2,3 +2,28 @@
     display: grid;
     justify-items: center;
 }
+
+.motivos{
+    display: grid;
+    justify-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.motivos_items{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.kit_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.image{
+    margin-right: 20px;
+}
+
+.resumo_kit{
+    margin-left: 80px;
+}

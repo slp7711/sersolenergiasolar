@@ -10,6 +10,7 @@
 .links{
   display: grid;
   justify-items: center;
+  margin-bottom: 20px;
 }
 
 .links > a{
@@ -17,6 +18,22 @@
   text-decoration: none;
   display: grid;
   justify-items: center;
+}
+
+.mapouter{
+  /* position:relative; */
+  /* text-align:right; */
+  display: grid;
+  justify-items: center;
+  /* height:500px; */
+  /* width:600px; */
+}
+
+.gmap_canvas {
+  /* overflow:hidden; */
+  /* background:none!important; */
+  height:500px;
+  width:900px;
 }
 
 @media screen and (min-width: 900px){

@@ -2,3 +2,17 @@
     display: grid;
     justify-items: center;
 }
+
+.container_items{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.description{
+    margin-left: 140px;
+}
+
+.outra_classe{
+    margin-left: 40px;
+}
