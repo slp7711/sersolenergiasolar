@@ -15,7 +15,7 @@ const EnergiaSolar = () => {
                 <h1>Projetos de Energia Solar</h1>
                 <div className={styles.container_items}>
                     <div>
-                        <Image src="/energia-solar.jpeg" width={400} height={300}/>
+                        <Image src="/energia-solar.jpeg" width={400} height={300} alt="imagem energia solar"/>
                     </div>
                     <div className={`${styles.outra_classe} ${styles.description}`}>
                         <p>Energia solar é tendência e não moda. Cada vez mais sentimos necessidade de melhor usar os recursos do nosso planeta e também evitar o alto custo da energia elétrica.</p>

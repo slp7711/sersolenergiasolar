@@ -16,7 +16,7 @@ const KitEnergiaSolar = () => {
                     <h1>Motivos para investir um uma usina solar</h1>
                     <div className={styles.motivos_items}>
                         <h3>Para se livrar da fatura de energia elétrica.</h3>
-                        <p>Com uma usina solar instalada em sua casa, você reduz a fatura mensal em até 95%. É uma despesa a menos todo mês. Diga "Adeus" a bandeira amarela, bandeira vermelha.</p>
+                        <p>Com uma usina solar instalada em sua casa, você reduz a fatura mensal em até 95%. É uma despesa a menos todo mês. Diga <q>Adeus</q> a bandeira amarela, bandeira vermelha.</p>
                     </div>
                     <div className={styles.motivos_items}>
                         <h3>Fonte de energia limpa e inesgotável.</h3>
@@ -41,7 +41,7 @@ const KitEnergiaSolar = () => {
                 </div>
                 <div className={styles.kit_container}>
                     <div className={styles.image}>
-                    <Image src="/kit.jpg" width={400} height={300}/>
+                    <Image src="/kit.jpg" width={400} height={300} alt="imagem kit de energia solar"/>
                     </div>
                     <div className={styles.resumo_kit}>
                         <h1>Kit Energia Solar - Promoção especial</h1>

@@ -15,7 +15,7 @@ const MedicaoAgrupada = () => {
                 <h1>Projetos de Medição Agrupada</h1>
                 <div className={styles.container_items}>
                     <div>
-                        <Image src="/medicao-agrupada.jpeg" width={400} height={300}/>
+                        <Image src="/medicao-agrupada.jpeg" width={400} height={300} alt="imagem medição agrupada"/>
                     </div>
                     <div className={styles.description}>
                         <p>Quando um único ramal de entrada energia irá atender diversas unidades consumidoreas, precisamos projetar um sistema de medição agrupada, para análise e aprovação da conssecionária.</p>

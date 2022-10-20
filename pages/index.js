@@ -21,37 +21,37 @@ export default function Home() {
       <div className={styles.links}>
         <Link href="/energiaSolar">
           <a>
-            <Image src="/energia-solar.jpeg" width={200} height={100}/>
+            <Image src="/energia-solar.jpeg" width={200} height={100} alt="imagem energia solar"/>
             <p>Projetos de Energia Solar</p>
           </a>
         </Link>
         <Link href="/kitEnergiaSolar">
           <a>
-            <Image src="/kit.jpg" width={200} height={100}/>
+            <Image src="/kit.jpg" width={200} height={100} alt="imagem kit energia solar"/>
             <p>Kits de Energia Solar</p>
           </a>
         </Link>
         <Link href="predial">
           <a>
-            <Image src="/projeto-eletrico-residencial.jpeg" width={200} height={100}/>
+            <Image src="/projeto-eletrico-residencial.jpeg" width={200} height={100} alt="imagem projeto elétrico residencial"/>
             <p>Projetos Elétricos Residenciais</p>
           </a>
         </Link>
         <Link href="medicaoAgrupada">
           <a>
-            <Image src="/medicao-agrupada.jpeg" width={200} height={100}/>
+            <Image src="/medicao-agrupada.jpeg" width={200} height={100} alt="imagem medição agrupada"/>
             <p>Projetos de Medição Agrupada</p>
           </a>
         </Link>
         <Link href="subestacaoAerea">
           <a>
-            <Image src="/subestacao-aerea.jpeg" width={200} height={100}/>
+            <Image src="/subestacao-aerea.jpeg" width={200} height={100} alt="imagem subestação aérea"/>
             <p>Projetos de Subestações Aéreas</p>
           </a>
         </Link>
         <Link href="/energiaLivre">
           <a>
-            <Image src="/mercado-livre-energia.jpeg" width={200} height={100}/>
+            <Image src="/mercado-livre-energia.jpeg" width={200} height={100} alt="imagem mercado livre de energia"/>
             <p>Mercado Livre de Energia</p>
          </a>
         </Link>

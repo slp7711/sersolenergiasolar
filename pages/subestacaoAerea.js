@@ -15,7 +15,7 @@ const SubestacaoAerea = () => {
                  <h1>Projetos de Subestação Aérea</h1>
                 <div className={styles.container_items}>
                     <div>
-                        <Image src="/subestacao-aerea.jpeg" width={400} height={300}/>
+                        <Image src="/subestacao-aerea.jpeg" width={400} height={300} alt="imagem subestação aérea"/>
                     </div>
                     <div className={styles.description}>
                         <p>Quando a carga instalada na unidade consumidora ultrapassar 75 KWA será necessário a instalação de uma substação de entrada de energia em média ou alta tensão, que podem ser aéreas ou abrigadas, sendo a primeira a mais comum.</p>

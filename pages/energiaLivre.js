@@ -15,7 +15,7 @@ const EnergiaLivre = () => {
             <h1>Mercado Livre de Energia</h1>
             <div className={styles.container_items}>
                 <div>
-                    <Image src="/mercado-livre-energia.jpeg" width={400} height={300}/>
+                    <Image src="/mercado-livre-energia.jpeg" width={400} height={300} alt="imagem mercado livre de energia"/>
                 </div>
                 <div className={styles.description}>
                     <p>Hoje já é possível negociar a compra de energia elétrica diretamente da geradora. Apesar de ainda não contemplar a totalidade do mercado, muitas empresas já podem usufruir desta possibilidade e adquirir energia mais barata e de fontes renováveis, como eólica e fotovoltaica.</p>

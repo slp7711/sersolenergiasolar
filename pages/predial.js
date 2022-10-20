@@ -15,7 +15,7 @@ const Predial = () => {
                 <h1>Projetos de Instalações Elétricas Prediais</h1>
                 <div className={styles.container_items}>
                     <div>
-                        <Image src="/projeto-eletrico-residencial.jpeg" width={400} height={300}/>
+                        <Image src="/projeto-eletrico-residencial.jpeg" width={400} height={300} alt="imagem projeto predial"/>
                     </div>
                     <div className={styles.description}>
                         <p>Hoje é praticamente impossível vivermos sem energia elétrica, e quase tudo depende direta ou inderetamente dela para funcionar. Você consegue imaginar sua casa sem energia elétrica?</p>
