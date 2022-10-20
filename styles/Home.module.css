@@ -1,10 +1,15 @@
-.title {
-  color: #333;
-  padding-bottom: 20px;
-  text-align: center;
+.container {
+  display: grid;
+  justify-items: center;
 }
-.text {
-  color: #777;
+
+.description {
+  display: grid;
+  justify-items: center;
+}
+
+.description > p {
+  text-align: justify;
 }
 
 .links{
@@ -14,32 +19,30 @@
 }
 
 .links > a{
-  color: #333;
   text-decoration: none;
   display: grid;
   justify-items: center;
 }
 
 .mapouter{
-  /* position:relative; */
-  /* text-align:right; */
   display: grid;
   justify-items: center;
-  /* height:500px; */
-  /* width:600px; */
+
 }
 
-.gmap_canvas {
-  /* overflow:hidden; */
-  /* background:none!important; */
-  height:500px;
-  width:900px;
+.gmap_canvas > iframe{
+  width:400px;
+  height:400px;
 }
 
 @media screen and (min-width: 900px){
   
   .links {
       grid-template-columns: repeat(3, 1fr);
+  }
+  .gmap_canvas > iframe{
+    width: 900px;
+    height: 500px;
   }
 
 }

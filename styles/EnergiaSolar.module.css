@@ -6,13 +6,25 @@
 .container_items{
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 2fr;
 }
 
 .description{
     margin-left: 140px;
+    text-align: justify;
 }
 
 .outra_classe{
-    margin-left: 40px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 900px){
+
+    .container_items{
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .outra_classe{
+        margin-left: 40px;
+    }
+
 }

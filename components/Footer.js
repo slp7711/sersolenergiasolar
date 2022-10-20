@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <Link href="https://wa.me/message/NBSFTXZSDQ55B1">
                 <a target="_blank" rel="noopener noreferrer">
-                <Image src="/whatsapp-image.jpeg" width={200} height={100}/>
+                <Image src="/whatsapp-image.jpeg" width={200} height={100} alt="whatsapp icon image"/>
                 </a>
             </Link>
             <p>Entre em contato conosco - WhatsApp 47-98808.3599</p>

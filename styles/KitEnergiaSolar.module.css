@@ -1,29 +1,53 @@
-.container{
+.container {
     display: grid;
     justify-items: center;
 }
 
-.motivos{
+.motivos {
     display: grid;
     justify-items: center;
     border-bottom: 1px solid #ddd;
 }
 
-.motivos_items{
+.motivos > h1 {
+    text-align: center;
+}
+
+.motivos_items {
     display: grid;
-    grid-template-columns: 2fr 3fr;
 }
 
-.kit_container{
+.motivos_items > p {
+    text-align: justify;
+}
+
+
+.kit {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+    justify-items: center;
 }
 
-.image{
-    margin-right: 20px;
+.kit > h1 {
+    text-align: center;
 }
 
-.resumo_kit{
-    margin-left: 80px;
-}
+
+
+@media screen and (min-width: 900px){
+
+    .motivos_items {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .kit_description {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+    }
+
+    .kit_resumo {
+        margin-left: 80px;
+    }
+
+   
+  }
