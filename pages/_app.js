@@ -1,5 +1,4 @@
 import Footer from '../components/Footer'
-import GoogleTag from '../components/Google-tag'
 //import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
 import '../styles/globals.css'
@@ -15,7 +14,6 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <div className="content">
-      <GoogleTag/>
       <Navbar/>
       <Component {...pageProps} />
       <Footer/>
