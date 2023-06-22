@@ -48,7 +48,7 @@ const KitEnergiaSolar = () => {
                         <div className={styles.kit_resumo}>
                             <p>Potência: 2,24Kwp</p>
                             <p>Energia produzida: até 225 Kh/mês</p>
-                            <p>Paineis: 4 x 560 Wp Luxen</p>
+                            <p>Módulos: 4 x 560 Wp</p>
                             <p>Microinversor: 1 x SUN2000 Deye</p>
                             <p>Estrutura de fixação: inclusa -  de acordo com o tipo de telhado</p>
                             <p>Projeto:  incluso - elaboração e aprovação junto a concessionária</p>
