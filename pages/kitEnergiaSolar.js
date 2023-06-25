@@ -13,7 +13,7 @@ const KitEnergiaSolar = () => {
             </Head>
             <div className={styles.container}>
                 <div className={styles.motivos}>
-                    <h1>Motivos para investir um uma usina solar</h1>
+                    <h1>Motivos para investir em uma usina solar</h1>
                     <div className={styles.motivos_items}>
                         <h3>Para se livrar da fatura de energia elétrica</h3>
                         <p>Com uma usina solar instalada em sua casa, você reduz a fatura mensal em até 95%. É uma despesa a menos todo mês. Diga <q>Adeus</q> a bandeira amarela, bandeira vermelha.</p>
