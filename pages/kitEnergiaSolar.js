@@ -53,7 +53,7 @@ const KitEnergiaSolar = () => {
                             <p>Estrutura de fixação: inclusa -  de acordo com o tipo de telhado</p>
                             <p>Projeto:  incluso - elaboração e aprovação junto a concessionária</p>
                             <p>Instalação: Kit instalado e liberado para conecção a rede da concessionária</p>
-                            <p>Promoção especial: R$ 6.990,00</p>
+                            <p>Promoção especial: R$ 7,000,00</p>
                             <p>Sua usina funcionando em 30 dias</p>
                             <p>Entre em contato conosco agora mesmo e garanta a sua usina solar com as melhores condições do mercado.</p>
                         </div>
