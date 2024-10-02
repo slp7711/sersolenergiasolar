@@ -15,7 +15,7 @@ const NotFound = () => {
     return (
         <div className="not-found">
             <h1>Ooooops.....</h1>
-            <h2>Página solicitada não existe..</h2>
+            <h2>Página solicitada não existe.</h2>
             <p>Retorne para o <Link href="/"><a>Página Inicial</a></Link></p>
         </div>
     );
